@@ -11,7 +11,55 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
+import ldap
+from django_auth_ldap.config import LDAPSearch, PosixGroupType
+# Baseline configuration.
+AUTH_LDAP_SERVER_URI = "ldap://192.168.122.206:389"
 
+AUTH_LDAP_BIND_DN = "cn=admin,dc=blogparadise,dc=local"
+AUTH_LDAP_BIND_PASSWORD = "123456"
+AUTH_LDAP_USER_SEARCH = LDAPSearch(
+    "dc=blogparadise,dc=local", ldap.SCOPE_SUBTREE, "(uid=%(user)s)"
+)
+
+AUTH_LDAP_GROUP_SEARCH = LDAPSearch(
+    "dc=blogparadise,dc=local",
+    ldap.SCOPE_SUBTREE,
+    "(objectClass=PosixGroup)",
+)
+
+AUTH_LDAP_GROUP_TYPE = PosixGroupType()
+
+AUTH_LDAP_USER_ATTR_MAP = {
+    "first_name": "cn",
+    "last_name": "sn",
+    "user": "uid",
+    "password": "userPassword"
+}
+
+AUTH_LDAP_USER_FLAGS_BY_GROUP = {
+    "is_active": ["cn=admins,ou=grupos,dc=blogparadise,dc=local"],
+    "is_staff": ["cn=admins,ou=grupos,dc=blogparadise,dc=local"],
+    "is_superuser": ["cn=admins,ou=grupos,dc=blogparadise,dc=local"],
+}
+
+
+# This is the default, but I like to be explicit.
+AUTH_LDAP_ALWAYS_UPDATE_USER = True
+
+# Use LDAP group membership to calculate group permissions.
+AUTH_LDAP_FIND_GROUP_PERMS = True
+
+WAGTAILUSERS_PASSWORD_ENABLED = False
+WAGTAILUSERS_PASSWORD_REQUIRED = False
+
+WAGTAIL_PASSWORD_MANAGEMENT_ENABLED = False
+WAGTAIL_PASSWORD_RESET_ENABLED = False
+
+AUTHENTICATION_BACKENDS = (
+    "django_auth_ldap.backend.LDAPBackend",
+    "django.contrib.auth.backends.ModelBackend",
+)
 # Build paths inside the project like this: os.path.join(PROJECT_DIR, ...)
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)

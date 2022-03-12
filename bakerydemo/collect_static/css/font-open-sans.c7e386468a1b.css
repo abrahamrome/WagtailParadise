@@ -1,0 +1,100 @@
+/* open-sans-300 - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-300.2a3d175b60ed.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-300.e079a1adc52f.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-300italic - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-300italic.209db5027756.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-300italic.5483db56f553.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-regular - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-regular.a9557eb451f1.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-regular.e15b8743b41a.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-italic - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-italic.eaa7773c8900.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-italic.391454f0890b.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-600 - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-600.97593b89e959.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-600.5d001a17da29.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-600italic - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-600italic.ba0552ee00a0.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-600italic.ebcdf3323435.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-700 - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-700.17c283b4e785.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-700.213e8c892aa1.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-700italic - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-700italic.b12383177da0.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-700italic.ac4cda64bbce.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-800 - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-800.3d4b2f5a51f6.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-800.ca7fe2292b44.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* open-sans-800italic - vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext */
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-800italic.4fb2e4fe95ad.woff2") format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url("../fonts/open-sans-v17-vietnamese_greek_cyrillic-ext_cyrillic_latin_greek-ext_latin-ext-800italic.dd013a555f6f.woff") format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
